@@ -1,38 +1,38 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-const catapultFireSound = new Audio('catapult.mp3');
-const splatSound = new Audio('splat.mp3');
+const catapultFireSound = new Audio('https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/catapult.mp3');
+const splatSound = new Audio('https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/splat.mp3');
 
 canvas.width = 500;
 canvas.height = 500;
 
 const intro_img = new Image();
-intro_img.src = 'http://localhost:8000/intro.png';
+intro_img.src = 'https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/intro.png';
 
 const bg_img = new Image();
-bg_img.src = 'http://localhost:8000/bg.png';
+bg_img.src = 'https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/bg.png';
 
 const trees_img = new Image();
-trees_img.src = 'http://localhost:8000/trees.png';
+trees_img.src = 'https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/trees.png';
 
 const brownGoblin_img = new Image();
-brownGoblin_img.src = 'http://localhost:8000/goblin1a.png';
+brownGoblin_img.src = 'https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/goblin1a.png';
 
 const blueGoblin_img = new Image();
-blueGoblin_img.src = 'http://localhost:8000/goblin2a.png';
+blueGoblin_img.src = 'https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/goblin2a.png';
 
 const redGoblin_img = new Image();
-redGoblin_img.src = 'http://localhost:8000/goblin3a.png';
+redGoblin_img.src = 'https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/goblin3a.png';
 
 const yellowGoblin_img = new Image();
-yellowGoblin_img.src = 'http://localhost:8000/goblin4a.png';
+yellowGoblin_img.src = 'https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/goblin4a.png';
 
 const tomato_img = new Image();
-tomato_img.src = 'http://localhost:8000/tomato.png';
+tomato_img.src = 'https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/tomato.png';
 
 const catapult_img = new Image();
-catapult_img.src = 'http://localhost:8000/catapult_anim.png';
+catapult_img.src = 'https://raw.githubusercontent.com/Swillycoder/Rottentomatos/main/catapult_anim.png';
 
 
 
