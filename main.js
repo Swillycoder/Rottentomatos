@@ -1,8 +1,8 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-const catapultFireSound = new Audio('audio/catapult.mp3');
-const splatSound = new Audio('audio/splat.mp3');
+const catapultFireSound = new Audio('catapult.mp3');
+const splatSound = new Audio('splat.mp3');
 
 canvas.width = 500;
 canvas.height = 500;
